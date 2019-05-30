@@ -1,0 +1,11 @@
+<?php
+
+namespace DummyNamespace;
+
+use Kenini\Repository\AbstractRepository;
+use App\Repositories\Contracts\DummyClassInterface;
+
+class DummyClass extends AbstractRepository implements DummyClassInterface
+{
+    //
+}
